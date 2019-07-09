@@ -1,0 +1,154 @@
+{:marten  [{:name "Peter Sagan" :type :normal}
+           {:name "Dylan Groenewegen" :type :normal}
+           {:name "Julian Alaphilippe" :type :normal}
+           {:name "Michael Matthews" :type :normal}
+           {:name "Caleb Ewan" :type :normal}
+           {:name "Egan Bernal" :type :normal}
+           {:name "Enric Mas" :type :normal}
+           {:name "Jakob Fuglsang" :type :normal}
+           {:name "Maximilian Schachmann" :type :normal}
+           {:name "Pello Bilbao" :type :normal}
+           {:name "Matteo Trentin" :type :normal}
+           {:name "Omar Fraile" :type :normal}
+           {:name "Gorka Izagirre" :type :normal}
+           {:name "Romain Bardet" :type :kluns}]
+ :joris   [{:name "Peter Sagan" :type :normal}
+           {:name "Dylan Groenewegen" :type :normal}
+           {:name "Julian Alaphilippe" :type :normal}
+           {:name "Adam Yates" :type :normal}
+           {:name "Jakob Fuglsang" :type :normal}
+           {:name "Egan Bernal" :type :normal}
+           {:name "Caleb Ewan" :type :normal}
+           {:name "Mikel Landa" :type :normal}
+           {:name "Michael Matthews" :type :normal}
+           {:name "Emanuel Buchmann" :type :normal}
+           {:name "Rohan Dennis" :type :normal}
+           {:name "Tiesj Benoot" :type :normal}
+           {:name "Alexey Lutsenko" :type :normal}
+           {:name "Romain Bardet" :type :kluns}]
+ :kasper  [{:name "Egan Bernal" :type :normal}
+           {:name "Mikel Landa" :type :normal}
+           {:name "Enric Mas" :type :normal}
+           {:name "Tiesj Benoot" :type :normal}
+           {:name "Simon Yates" :type :normal}
+           {:name "Warren Barguil" :type :normal}
+           {:name "Julian Alaphilippe" :type :normal}
+           {:name "Alexander Kristoff" :type :normal}
+           {:name "Peter Sagan" :type :normal}
+           {:name "Dylan Groenewegen" :type :normal}
+           {:name "David Gaudu" :type :normal}
+           {:name "Alejandro Valverde" :type :normal}
+           {:name "Giacomo Nizzolo" :type :normal}
+           {:name "Vincenzo Nibali" :type :kluns}]
+ :thijs   [{:name "Peter Sagan" :type :normal}
+           {:name "Jakob Fuglsang" :type :normal}
+           {:name "Rigoberto Uran" :type :normal}
+           {:name "Michael Matthews" :type :normal}
+           {:name "Bauke Mollema" :type :normal}
+           {:name "Egan Bernal" :type :normal}
+           {:name "Alejandro Valverde" :type :normal}
+           {:name "Steven Kruijswijk" :type :normal}
+           {:name "Caleb Ewan" :type :normal}
+           {:name "Emanuel Buchmann" :type :normal}
+           {:name "Julian Alaphilippe" :type :normal}
+           {:name "Wout Van Aert" :type :normal}
+           {:name "Vincenzo Nibali" :type :normal}
+           {:name "Geraint Thomas" :type :kluns}]
+ :tb      [{:name "Jakob Fuglsang" :type :normal}
+           {:name "Dylan Groenewegen" :type :normal}
+           {:name "Sonny Colbrelli" :type :normal}
+           {:name "Elia Viviani" :type :normal}
+           {:name "Richie Porte" :type :normal}
+           {:name "Steven Kruijswijk" :type :normal}
+           {:name "Stefan Küng" :type :normal}
+           {:name "Peter Sagan" :type :normal}
+           {:name "Enric Mas" :type :normal}
+           {:name "Michal Kwiatkowski" :type :normal}
+           {:name "Egan Bernal" :type :normal}
+           {:name "Lilian Calmejane" :type :normal}
+           {:name "Alexis Vuillermoz" :type :normal}
+           {:name "Thibaut Pinot" :type :kluns}]
+ :bernd   [{:name "Elia Viviani" :type :normal}
+           {:name "Peter Sagan" :type :normal}
+           {:name "Alexey Lutsenko" :type :normal}
+           {:name "Emanuel Buchmann" :type :normal}
+           {:name "Jakob Fuglsang" :type :normal}
+           {:name "Maximilian Schachmann" :type :normal}
+           {:name "Thibaut Pinot" :type :normal}
+           {:name "Rohan Dennis" :type :normal}
+           {:name "Egan Bernal" :type :normal}
+           {:name "Dylan Groenewegen" :type :normal}
+           {:name "Steven Kruijswijk" :type :normal}
+           {:name "Tejay Van Garderen" :type :normal}
+           {:name "Julian Alaphilippe" :type :normal}
+           {:name "Geraint Thomas" :type :kluns} ]
+ :simon   [{:name "Peter Sagan" :type :normal}
+           {:name "Dylan Groenewegen" :type :normal}
+           {:name "Alexander Kristoff" :type :normal}
+           {:name "Michael Matthews" :type :normal}
+           {:name "Jasper Stuyven" :type :normal}
+           {:name "Tiesj Benoot" :type :normal}
+           {:name "Julian Alaphilippe" :type :normal}
+           {:name "Alejandro Valverde" :type :normal}
+           {:name "Rigoberto Uran" :type :normal}
+           {:name "Egan Bernal" :type :normal}
+           {:name "Steven Kruijswijk" :type :normal}
+           {:name "Jakob Fuglsang" :type :normal}
+           {:name "Adam Yates" :type :normal}
+           {:name "Geraint Thomas" :type :kluns}]
+ :lutzen  [{:name "Julian Alaphilippe" :type :normal}
+           {:name "Alejandro Valverde" :type :normal}
+           {:name "Greg van Avermaet" :type :normal}
+           {:name "Vincenzo Nibali" :type :normal}
+           {:name "Thibaut Pinot" :type :normal}
+           {:name "Giulio Ciccone" :type :normal}
+           {:name "Maximilian Schachmann" :type :normal}
+           {:name "Egan Bernal" :type :normal}
+           {:name "Peter Sagan" :type :normal}
+           {:name "Wout Poels" :type :normal}
+           {:name "Rohan Dennis" :type :normal}
+           {:name "Alexander Kristoff" :type :normal}
+           {:name "Michael Matthews" :type :normal}
+           {:name "Nairo Quintana" :type :kluns}]
+ :piter   [{:name "Thibaut Pinot" :type :normal}
+           {:name "Peter Sagan" :type :normal}
+           {:name "Jakob Fuglsang" :type :normal}
+           {:name "Enric Mas" :type :normal}
+           {:name "Rohan Dennis" :type :normal}
+           {:name "Steven Kruijswijk" :type :normal}
+           {:name "Nairo Quintana" :type :normal}
+           {:name "Dylan Groenewegen" :type :normal}
+           {:name "Daniel Martin" :type :normal}
+           {:name "Patrick Konrad" :type :normal}
+           {:name "Egan Bernal" :type :normal}
+           {:name "Lilian Calmejane" :type :normal}
+           {:name "Adam Yates" :type :normal}
+           {:name "Geraint Thomas" :type :kluns}]
+ :gysbert [{:name "Egan Bernal" :type :normal}
+           {:name "Steven Kruijswijk" :type :normal}
+           {:name "Emanuel Buchmann" :type :normal}
+           {:name "Michael Woods" :type :normal}
+           {:name "Tiesj Benoot" :type :normal}
+           {:name "Julian Alaphilippe" :type :normal}
+           {:name "Pello Bilbao" :type :normal}
+           {:name "Jakob Fuglsang" :type :normal}
+           {:name "Daniel Martin" :type :normal}
+           {:name "Caleb Ewan" :type :normal}
+           {:name "Dylan Groenewegen" :type :normal}
+           {:name "Bauke Mollema" :type :normal}
+           {:name "Adam Yates" :type :normal}
+           {:name "Richie Porte" :type :kluns}]
+ :jacob   [{:name "Egan Bernal" :type :normal}
+           {:name "Romain Bardet" :type :normal}
+           {:name "Peter Sagan" :type :normal}
+           {:name "Warren Barguil" :type :normal}
+           {:name "Mikel Landa" :type :normal}
+           {:name "Jens Debusschere" :type :normal}
+           {:name "Jakob Fuglsang" :type :normal}
+           {:name "Thibaut Pinot" :type :normal}
+           {:name "Jasper Stuyven" :type :normal}
+           {:name "Dylan Groenewegen" :type :normal}
+           {:name "Christophe Laporte" :type :normal}
+           {:name "Rick Zabel" :type :normal}
+           {:name "Daryl Impey" :type :normal}
+           {:name "Pello Bilbao" :type :kluns}]}
