@@ -7,6 +7,25 @@
 (def teams
   (read-string (slurp "resources/teams.edn")))
 
+(def riders
+  (read-string
+   (slurp "resources/riders.edn")))
+
+(def categories
+  (with-open [reader (io/reader "resources/types.csv")]
+    (doall
+     (csv/read-csv reader))))
+
+(def rider-types
+  {:p :puncher
+   :a :aanvaller
+   :s :sprinter
+   :b :klimmer
+   :t :tijdrijder
+   :k :klassement
+   :n :knecht
+   :kb :kutbaguette})
+
 (defn frequencies-by-type
   "Rider->count"
   [rider-type]
@@ -20,7 +39,6 @@
        reverse
        (map (fn [[k v]]
               {:rider k :frequency v}))))
-
 
 (defn team-normality
   "Alle frequenties van je teammembers optellen, geeft een score van hoe normaal je team is.
@@ -46,65 +64,6 @@
          (map (fn [[k v]]
                 {:player k :score v})))))
 
-(defn sagan?
-  [{n :name}]
-  (= n "Peter Sagan"))
-
-(defn no-sagan?
-  [[k v]]
-  (->> v (filter sagan?) empty?))
-
-
-
-(defn ala?
-  [{n :name}]
-  (= n "Julian Alaphilippe"))
-
-(defn no-ala?
-  [[k v]]
-  (->> v (filter ala?) empty?))
-
-(def players-without-sagan
-  (->>
-   (filter no-sagan? teams)
-   (map first)))
-
-
-(def players-without-ala
-  (->>
-   (filter no-ala? teams)
-   (map first)))
-
-
-(def rider-types
-  {:p :puncher
-   :a :aanvaller
-   :s :sprinter
-   :b :klimmer
-   :t :tijdrijder
-   :k :klassement
-   :n :knecht
-   :kb :kutbaguette})
-
-#_(def riders
-  (->> teams
-       (map second)
-       (apply concat)
-       (map :name)
-       set
-       (map (fn [r]
-              {:name r
-               :score 0
-               :type :s
-               }))
-       (sort-by :name)
-       vec))
-
-(def categories
-  (with-open [reader (io/reader "resources/types.csv")]
-    (doall
-     (csv/read-csv reader))))
-
 (defn parse-category
   [c]
   (let [c (->> (clojure.string/split c #",")
@@ -114,15 +73,10 @@
                set)]
     c))
 
-
 (def rider->categories
   (->> categories
        (into {} (map (fn [[r c]]
                        [r (parse-category c)])))))
-
-(def riders
-  (read-string
-   (slurp "resources/riders.edn")))
 
 (defn players-with-rider-as
   [n t]
@@ -138,12 +92,11 @@
        sort
        vec))
 
-
 (def kluns-conflicten
   (->> riders
        (map (fn [{n :name :as r}]
               [n {:normal (players-with-rider-as n :normal)
-                  :kluns (players-with-rider-as n :kluns)}]))
+                  :kluns  (players-with-rider-as n :kluns)}]))
        (remove (comp empty? :normal second))
        (remove (comp empty? :kluns second))
        (into {})))
@@ -180,9 +133,7 @@
        (filter (fn [r]
                  (let [ts (get rider->categories (:name r))]
                    (some #{k} ts))))
-       count
-       ))
-
+       count))
 
 (def renner-verdeling
   (->> teams
@@ -209,8 +160,6 @@
     {p1 (clojure.set/difference u s2)
      :beide i
      p2 (clojure.set/difference u s2)}))
-
-
 
 (defn venn-num
   [p1 p2]
