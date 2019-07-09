@@ -1,4 +1,4 @@
-# Sportpools.net roadtripgasjes subleague statistics
+# Sportpools.net Tour de France 2019 - roadtripgasjes subleague statistics
 
 - resources holds some input files
 - various statistics are put in def's and functions
