@@ -1,0 +1,53 @@
+[{:name "Adam Yates" :score 2 :type :s}
+ {:name "Alejandro Valverde" :score 1 :type :s}
+ {:name "Alexander Kristoff" :score 2 :type :s}
+ {:name "Alexey Lutsenko" :score 0 :type :s}
+ {:name "Alexis Vuillermoz" :score 0 :type :s}
+ {:name "Bauke Mollema" :score 1 :type :s}
+ {:name "Caleb Ewan" :score 2 :type :s}
+ {:name "Christophe Laporte" :score 1 :type :s}
+ {:name "Daniel Martin" :score 2 :type :s}
+ {:name "Daryl Impey" :score 0 :type :s}
+ {:name "David Gaudu" :score 0 :type :s}
+ {:name "Dylan Groenewegen" :score 3 :type :s}
+ {:name "Egan Bernal" :score 2 :type :s}
+ {:name "Elia Viviani" :score 3 :type :s}
+ {:name "Emanuel Buchmann" :score 1 :type :s}
+ {:name "Enric Mas" :score 2 :type :s}
+ {:name "Geraint Thomas" :score 4 :type :s}
+ {:name "Giacomo Nizzolo" :score 1 :type :s}
+ {:name "Giulio Ciccone" :score 1 :type :s}
+ {:name "Gorka Izagirre" :score 0 :type :s}
+ {:name "Greg van Avermaet" :score 1 :type :s}
+ {:name "Jakob Fuglsang" :score 2 :type :s}
+ {:name "Jasper Stuyven" :score 0 :type :s}
+ {:name "Jens Debusschere" :score 0 :type :s}
+ {:name "Julian Alaphilippe" :score 3 :type :s}
+ {:name "Lilian Calmejane" :score 0 :type :s}
+ {:name "Matteo Trentin" :score 1 :type :s}
+ {:name "Maximilian Schachmann" :score 1 :type :s}
+ {:name "Michael Matthews" :score 2 :type :s}
+ {:name "Michael Woods" :score 1 :type :s}
+ {:name "Michal Kwiatkowski" :score 1 :type :s}
+ {:name "Mikel Landa" :score 2 :type :s}
+ {:name "Nairo Quintana" :score 2 :type :s}
+ {:name "Omar Fraile" :score 0 :type :s}
+ {:name "Patrick Konrad" :score 0 :type :s}
+ {:name "Pello Bilbao" :score 1 :type :s}
+ {:name "Peter Sagan" :score 4 :type :s}
+ {:name "Richie Porte" :score 2 :type :s}
+ {:name "Rick Zabel" :score 0 :type :s}
+ {:name "Rigoberto Uran" :score 1 :type :s}
+ {:name "Rohan Dennis" :score 0 :type :s}
+ {:name "Romain Bardet" :score 3 :type :s}
+ {:name "Simon Yates" :score 1 :type :s}
+ {:name "Sonny Colbrelli" :score 2 :type :s}
+ {:name "Stefan Küng" :score 0 :type :s}
+ {:name "Steven Kruijswijk" :score 2 :type :s}
+ {:name "Tejay Van Garderen" :score 0 :type :s}
+ {:name "Thibaut Pinot" :score 3 :type :s}
+ {:name "Tiesj Benoot" :score 0 :type :s}
+ {:name "Vincenzo Nibali" :score 2 :type :s}
+ {:name "Warren Barguil" :score 1 :type :s}
+ {:name "Wout Poels" :score 0 :type :s}
+ {:name "Wout Van Aert" :score 1 :type :s}]
